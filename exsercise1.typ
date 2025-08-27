@@ -1,5 +1,4 @@
 #import "@preview/dvdtyp:1.0.1": *
-#import "@preview/cetz:0.4.1"
 
 #show: dvdtyp.with(
   title: "Exercise 1",
@@ -28,7 +27,7 @@ The Eulerian coordinate system focuses on specific locations in the space throug
 A simple drawing to illustrate the difference:
 
 #figure(
-  image("image.png", width: 50%,)
+  image("images/euler-lagra.png", width: 50%,)
 )
 
 === Based on the diﬀerent coordinate systems, we get diﬀerent kinds of derivatives. Show how you can use the chain rule to establish the _material derivative_.
@@ -53,7 +52,7 @@ Reynolds' transport theorem provides a relationship between the rate of change o
 === Consider Figure 1. Apply Reynolds’ transport theorem applied to momentum to determine the pressure drop from A1 to A2. Show your control volume. You may neglect viscous eﬀects along the wall of the pipe and assume laminar flow.
 
 #figure(
-  image("image-1.png", width: 50%,),
+  image("images/ex1-ex2.png", width: 50%,),
   caption: "Fluid flows through a narrow pipe with area A1 at velocity v1 into a larger pipe with area A2 with a velocity v2 shortly after the junction."
   )
 
